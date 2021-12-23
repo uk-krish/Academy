@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+       
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>We are help to Build Your Dreams</h1>
+            <p>CS ACADEMY - an established name in JEE and NEET preparation, has been guiding students to success since 1988. With a legacy of over 32 years,<br> 200+ centers across India, 2200+ expert faculty and 2.5 lakh+ happy students, <BR> CS ACADEMY is well known for its comprehensive, result-oriented JEE and NEET preparation programs.</p>
+            <a href="" class="hero-btn">Visit to Know More!!</a>
+        </div>
+    </section>
+    
+    <!-- Course Section -->
+
+    <div class="course">
+        <h1>Course we Offer</h1>
+        <p>"Success consists of going from failure to failure without loss of enthusiasm."</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Coaching for Medical / NEET </h3>
+            <p>Best entrance coaching centre for NEET in coimbatore.
+                Expert study material for NEET & medical entrances preparation.
+                Optimal student-faculty ratio and Personalised Coaching.
+                Rank oriented NEET coaching + Periodic mock tests</p>
+        </div>
+        <div class="course-col">
+            <h3>Coaching for IIT-JEE Mains & Advanced</h3>
+            <p>Best IIT-JEE coaching center in coimbatore
+                IIT tutions from highly qualified and experienced faculties
+                Research based expert study material for IIT Regular and IIT Repeaters Batches
+                IIT-JEE Coaching classes + Periodic mock tests
+                Rank oriented approach towards academics and regular feedback on performance
+                Time management strategies, Stress bursting sessions and Individual counseling</p>
+        </div>
+        <div class="course-col">
+            <h3>Foundation Coaching</h3>
+            <p>Success Mantra: Strong fundamentals + core concepts of subjects
+                Various Integrated Classroom Programs for students from Class VI - XII
+                One-to-One support for students
+                Micro-Schedule & Goal Oriented Learning
+                In Depth teaching for concept improvement & confidence boosting
+                Regular feedback + doubts clarification + test series for NEET and IIT – JEE aspirants
+                Interactive and engaging sessions for conceptual clarity </p>
+        </div>
+    </div>
+    <!-- campus -->
+    <div class="campus">
+        <h1>Our Campus in India</h1>
+        <div class="row">
+            <div class="campus-col">
+                <img src="image/img1.webp" alt="">
+            </div>
+            <div class="campus-col">
+                <img class="img1" src="image/akk.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- What do
+    <div class="fea">
+        <h1>What Makes Aakash the Smartest Choice?</h1>
+        
+    </div> -->
+
+
+    <!-- Contact us -->
+    <div class="cta">
+        <h1>Enroll for Our Various Online Course <BR> Anywhere From The World </h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </div>
+
+</div>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function ShowMenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
