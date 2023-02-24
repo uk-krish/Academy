@@ -1,0 +1,131 @@
+*{
+    color:#fff;
+}
+body{
+    background: rgb(23,22,46);
+background: linear-gradient(90deg, rgba(23,22,46,1) 0%, rgba(25,23,43,1) 100%);
+    height: auto;
+   
+    
+}
+.img img{
+    width: 400px !important;
+}
+.menu-bar{
+    border: none;
+}
+.menu-bar .fa-bars{
+    color: #ad0df1;
+}
+.nav-link{
+    color: #fff;
+}
+.search{
+    width:450px;
+    border-radius: 15px;
+    border: none;
+    background: rgba(255, 255, 255, 0.384);
+    color: #fff;
+}
+.search::placeholder{
+    color: #fff;
+}
+.btn-se{
+    margin-left: -45px;
+    color: #fff;
+}
+.btn-se i{
+    color: #fff;
+}
+.btn-primary{
+    background: rgb(86,38,242);
+background: linear-gradient(90deg, rgba(86,38,242,1) 0%, rgba(182,11,241,1) 100%);
+    border: none;
+}
+.btn-second{
+    border: none;
+    color: #fff;
+    background: rgb(86,38,242);
+background: linear-gradient(90deg, rgba(86,38,242,1) 0%, rgba(64,24,108,1) 100%);
+}
+.earn{
+    background: rgb(23,22,46);
+background: linear-gradient(90deg, rgba(23,22,46,1) 0%, rgba(26,25,44,1) 100%);
+}
+
+.con-back{
+    background: rgb(52, 51, 68);
+}
+#special .card{
+    background: transparent !important;
+    border: none;
+    
+}
+#special .card-body{
+    display: flex;
+}
+.fa-highlight{
+    font-size: 48px;
+    background: #ad0df1;
+    color: #fff;
+    padding: 15px;
+    border-radius: 7px;
+}
+.explore .row .col{
+    margin: 20px;
+}
+
+.img img{
+    margin-top: -15%;
+    width: 700px !important;
+    height: 100%;
+    border-radius: 10px;
+}
+.size-img{
+    /* height: 300px; */
+    border-radius: 25px;
+}
+
+
+
+/* Responsive */
+@media (max-width: 600px){
+    .img img{
+        width: 700px !important;
+        /* display: none !important; */
+        position: relative;
+        margin-top: 55px;
+        top: 100% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+    }
+    .head-c{
+        /* margin-top: 60px; */
+        position: relative;
+        /* text-align: center; */
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important
+    }
+    .head-title{
+        margin-left: 50px;
+    }
+    #special{
+        margin-top: -40% !important;
+        padding-top: -25% !important;
+    }
+   
+}
+
+
+@media (max-width:400px) {
+    .head-title{
+       margin-top: 115px !important;
+       font-size: 20px !important;
+       width: 350px !important;
+    }
+    #special{
+        margin-top: -75% !important;
+        padding-top: -25% !important;
+    }
+}
